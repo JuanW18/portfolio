@@ -516,6 +516,7 @@ body {
     .works{
         grid-template-columns: 100%;
         grid-template-rows: 20% 20% 20% 20%;
+        margin: 15px;
         
     }
 
