@@ -97,7 +97,8 @@ body {
 }
 .portfolio > h2{
     font-size: 3em;
-    margin: 1em;
+    margin-top: 4em;
+
     box-shadow: 10px 10px 5px rgba(77, 77, 77, 0.438);
     border-radius: 10px;
     
@@ -106,7 +107,7 @@ body {
     position:relative;
     display: flex;
     width:70%;
-    height: 100%;
+    height: 90%;
     justify-content: center;
     margin-top: 20px;
     grid-template-columns: 50% 50%;
@@ -304,7 +305,7 @@ body {
     height:15%;
     display:flex;
     background-color: grey;
-
+    padding: 2em;
     justify-content: center;
     align-items: center;
 }
