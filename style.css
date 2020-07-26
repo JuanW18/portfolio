@@ -21,7 +21,7 @@ body {
     position: relative;
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 85%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -104,10 +104,10 @@ body {
 }
 .works{
     position:relative;
-    display: grid;
+    display: flex;
     width:70%;
     height: 100%;
-    justify-items: center;
+    justify-content: center;
     margin-top: 20px;
     grid-template-columns: 50% 50%;
     grid-template-rows: 40% 40%;
@@ -117,8 +117,8 @@ body {
 .work{
     position:absolute;
     display: flex;
-    width:90%;
-    height: 100%;
+    width:70%;
+    height: 70%;
     justify-content: center;
     background-color: red;
     border-radius: 10px;
@@ -129,28 +129,13 @@ body {
     transform: scale(1.05);
     
 }
-
 .work:first-child{
     grid-row: 1/2;
     grid-column: 1/2;
     
 }
-.work:nth-child(2){
-    grid-row: 1/2;
-    grid-column: 2/3;
-    
-}
 
-.work:nth-child(3){
-    grid-row: 2/3;
-    grid-column: 1/2;
-    
-}
-.work:last-child{
-    grid-row: 2/3;
-    grid-column: 2/3;
-    
-}
+
 .work{
     background-image: url(generales.jpg);
     background-size: cover;
@@ -313,79 +298,26 @@ body {
 
 
 
-
-
-
-
-
-
-
 .footer-container{
     position:relative;
     width:100%;
-    height:100%;
+    height:15%;
     display:flex;
     background-color: grey;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.form-container{
-    position:relative;
-    width: 80%;
-    height:90%;
-    margin: auto;
-    display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction:column;
-}
-.form-container>h2{
-    font-size: 5em;
-    margin: 0.5em;
-    box-shadow: 0px 7px white ;
-    color:white;
-    
-
 }
 
-.form-contact{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column;
-    width: 100%;
 
-}
-.form-contact *{
-    width: 40%;
-    margin:10px;
-    border: 3px solid rgba(0, 0, 0,0.3);
-    border-radius: 5px;
-    background-color: rgba(210, 105, 30);    
-    
-    
-}
-.form-contact *::placeholder{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    
-    
-}
-.form-contact{
-    height: 50%;
-}
-.form-contact button{
-    color: rgb(255, 255, 255);
-    
-    
-}
 .icons-footer{
     position: relative;
     display:flex;
     width: 100%;
-    height: 20%;
+    height: 100%;
     justify-content: center;
+    align-items: center;
+
     
 }
 .icons-footer > a{
@@ -474,9 +406,7 @@ body {
 
 
     }
-    .form-contact *{
-        width: 60%;
-    }
+    
 }
 @media screen and (max-width:610px){
     .name{
@@ -513,33 +443,7 @@ body {
 
 
     
-    .works{
-        grid-template-columns: 100%;
-        grid-template-rows: 20% 20% 20% 20%;
-        margin: 15px;
-        
-    }
-
-    .work:first-child{
-        grid-row: 1/2;
-        grid-column: 1/2;
-        
-    }
-    .work:nth-child(2){
-        grid-row:2/3;
-        grid-column: 1/2;
-
-    }
-    .work:nth-child(3){
-        grid-row:3/4;
-        grid-column: 1/2;
-
-    }
-    .work:last-child{
-        grid-row: 4/5;
-        grid-column: 1/2;
-
-    }
+    
     
 }
 
